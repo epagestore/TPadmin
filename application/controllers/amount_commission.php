@@ -1,0 +1,27 @@
+<?php class Amount_commission extends CI_Controller{
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->library('session');
+		$this->load->helper('url');
+			$this->load->helper('form');
+		$this->load->library('form_validation');
+		if(!isset($this->session->userdata['is_logged_in'])) { 
+				redirect('login');
+		}
+		$this->load->model('amount_transaction_model');
+	}
+	public function index() {
+		$customer_name='';
+		if($this->input->server('REQUEST_METHOD')=='POST')
+		{
+			$customer_name=$this->input->post('customer_name');
+		}
+		$data='';
+		$data['customer_name']=$customer_name;
+		$data['transactions']=$this->amount_transaction_model->getAmountCommission();
+		$this->load->view('header');
+		$this->load->view('amount_commission',$data);
+		$this->load->view('footer');
+	}
+}?>

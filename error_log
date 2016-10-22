@@ -1,0 +1,11 @@
+[22-Oct-2013 02:51:08] PHP Warning:  require_once(/home/vishald/public_html/yehki/admin/system/core/CodeIgniter.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/vishald/public_html/yehki/admin/index.php on line 202
+[22-Oct-2013 02:51:08] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/vishald/public_html/yehki/admin/system/core/CodeIgniter.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vishald/public_html/yehki/admin/index.php on line 202
+[22-Oct-2013 03:03:02] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/vishald/public_html/yehki/admin/system/database/drivers/mysql/mysql_driver.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vishald/public_html/yehki/admin/system/database/DB.php on line 140
+[10-Nov-2013 23:21:47] PHP Fatal error:  Class 'Product_model' not found in /home/vishald/public_html/yehki/admin/system/core/Loader.php on line 303
+[25-Nov-2013 08:00:19] PHP Fatal error:  Class 'Supplier_model' not found in /home/vishald/public_html/yehki/admin/system/core/Loader.php on line 303
+[01-Jan-2014 07:22:50] PHP Parse error:  syntax error, unexpected T_CONTINUE in /home/vishald/public_html/tp/admin/application/views/home.php on line 177
+[01-Jan-2014 07:22:54] PHP Parse error:  syntax error, unexpected T_CONTINUE in /home/vishald/public_html/tp/admin/application/views/home.php on line 177
+[08-Jan-2014 05:35:44] PHP Fatal error:  Cannot use [] for reading in /home/vishald/public_html/tp/admin/application/controllers/order_transaction.php on line 79
+[08-Jan-2014 05:36:15] PHP Fatal error:  Cannot use [] for reading in /home/vishald/public_html/tp/admin/application/controllers/order_transaction.php on line 79
+[08-Jan-2014 05:50:54] PHP Fatal error:  Call to undefined method Customer_model::emailById() in /home/vishald/public_html/tp/admin/application/controllers/order_transaction.php on line 76
+[08-Jan-2014 05:50:57] PHP Fatal error:  Call to undefined method Customer_model::emailById() in /home/vishald/public_html/tp/admin/application/controllers/order_transaction.php on line 76
